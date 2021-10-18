@@ -14,6 +14,6 @@ socket.connect({ port: 2000, host: '127.0.0.1' }, () => {
 
 socket.on('error', err => {
 	console.log('Server err:', err);
-})
+});
 
 // socket.unref();
